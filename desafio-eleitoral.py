@@ -2,8 +2,7 @@
 import pandas as pd
 import os 
 
-#ranking = pd.read_csv(r"C:\Users\Kaiser\Documents\consulta_cand_2024_BRASIL.csv", sep=';', encoding='latin-1')
-#ranking = pd.read_csv(r"C:\Users\Kaiser\Desktop\consulta_cand_2024_BRASIL_2.csv", sep=';', encoding='latin-1')
+
 
 url = 'https://raw.githubusercontent.com/jonathascamposmar/desafio-eleitoral/refs/heads/main/consulta_cand_2024_BRASIL_4.csv'
 ranking = pd.read_csv(url, sep=';', encoding = 'utf-8')
